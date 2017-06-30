@@ -1,0 +1,128 @@
+body{
+  background: #393d42;
+  padding-top: 60px;
+}
+
+/* Mike The Frog*/
+
+div{
+  border-radius: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.mike{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 2%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+
+.mike:hover{
+  -webkit-transform: scale(1.5) rotate(360deg);
+  -moz-transform: scale(1.5) rotate(360deg);
+  -ms-transform: scale(1.5) rotate(360deg);
+  transform: scale(1.5) rotate(360deg);
+}
+
+.head{
+  width: 195px;
+  height: 120px;
+  background: #;
+  position: relative;
+  z-index: 1;
+  margin-left: 103px;
+}
+
+.eyes {
+  width:200px;
+  position: absolute;
+  bottom: 45px;
+
+}
+
+.eye{
+  width: 95px;
+  height: 93px;
+  background-color: #ffe13b;
+  border: 10px solid #92ae57;
+  display: inline-block;
+  z-index: 2;
+  -webkit-animation: eyes 5s infinite step-start 0s;
+  -moz-animation: eyes 5s infinite step-start 0s;
+  -ms-animation: eyes 5s infinite step-start 0s;
+  animation: eyes 5s infinite step-start 0s;
+}
+
+.eye:last-child {
+  float:right;
+}
+
+.pupil {
+  width: 1px;
+  height: 1px;
+  border: 10px solid #353535;
+  display: inline-block;
+  position: absolute;
+  top: 38px;
+  margin-left:27px;  
+  z-index: 3;
+  -webkit-animation: pupil 5s infinite step-start 0s;
+  -moz-animation: pupil 5s infinite step-start 0s;
+  -ms-animation: pupil 5s infinite step-start 0s;
+  animation: pupil 5s infinite step-start 0s;
+}
+
+.pupil:last-child{
+  float:right;
+}
+
+.ball {
+  width: 1px;
+  height: 1px;
+  border: 5px solid #6f8346;
+  position: absolute;
+  top: 70px;
+  left: 88px;
+}
+
+.ball:last-child{
+  float:left;
+  margin-left: 14px;
+}
+
+.mouth{
+  height: 100px;
+  width: 180px;
+  border-bottom: 4px solid #6f8346;
+  position: relative;
+  top: 8px;
+  left: 7px;
+}
+
+/* Animations */
+@-webkit-keyframes eyes {
+   0%, 100% {
+  background:#92ae57;
+  border-radius: 50%;
+  border: 10px solid #92ae57;
+} 
+   5%, 95% {  
+  background:#ffe13b;
+  border-radius: 50%;
+  border: 10px solid #92ae57;
+ }
+}
+
+@-webkit-keyframes pupil {
+  0%, 100% {
+    opacity: 0;
+}
+  5%, 95% {
+    opacity: 1;
+ }
+}
