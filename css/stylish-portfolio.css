@@ -104,7 +104,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: #F5F97D;
 }
 
 .sidebar-nav li a:active,
@@ -155,7 +155,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/flw.jpg) no-repeat center center scroll;
+    background: url(../img/cute.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -172,6 +172,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #FFFAB5;
 }
 
 .service-item {
@@ -247,4 +248,8 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+.panel img {
+    width: 75%;
+    height: auto;
 }
