@@ -172,7 +172,8 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: #FFFAB5;
+    background: linear-gradient(to bottom, white, #FFB6C1);
+    color: white;
 }
 
 .service-item {
