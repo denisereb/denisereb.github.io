@@ -104,7 +104,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: #F5F97D;
+    background: #FFB6C1;
 }
 
 .sidebar-nav li a:active,
@@ -173,7 +173,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: #FFFAB5;
+    background-color: #FFB6C1;
 }
 
 .service-item {
